@@ -1,0 +1,28 @@
+body{
+    font-family:"Work Sans", sans-serif;
+    background: #F8EEFF;
+    background-image: url('assets/images/background-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: clamp(20.4375rem, 14.429577464788732rem + 25.633802816901408vw, 37.5rem);
+    background-color: #fff;
+    border-radius: 8px;
+    padding:1.5em;
+}
+
+.title{
+    display: flex;
+    gap: 1em;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2rem;
+    font-size: clamp(2rem, 1.471830985915493rem + 2.253521126760563vw, 3.5rem);
+    color: #301534;
+}
+
